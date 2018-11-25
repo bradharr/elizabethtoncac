@@ -8,15 +8,15 @@
         flex: 0 0 auto;
         background-color: #fafaeb;
         text-align: center;
-        color: #233b43;
+        color: #457587;
         width: 100%;
         max-width: 100%;
-        font-size: 22px;
+        font-size: 30px;
     }
     #navbar {
         flex: 0 0 auto;
         background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
-        padding: 20px;
+        padding: 2px;
         text-align: left;
         color: white;
         width: 100%;
@@ -26,11 +26,13 @@
     #main-section {
         flex: 0 0 auto;
         background-color: #a6a6a6;
-        padding: 120px;
         width: 100%;
         max-width: 100%;
         text-align: center;
         color: white;
+        font-family: lucida sans typwriter;
+        font-size: 30px;
+        padding: 2px;
     }
     #photo-banner {
         flex: 0 0 auto;
@@ -53,6 +55,14 @@
         width: 100%;
         max-width: 100%;
     }
+    .nav-links {
+        flex: 1;
+        color: white;
+        text-align: center;
+        padding: 0%;
+        font-family: lucida sans typewriter;
+        font-size: 30px;
+    }
 }
 @media screen and (min-width: 768px) {
 #flex-wrapper {
@@ -71,15 +81,15 @@
     margin-right: auto;
     margin-bottom: auto;
     margin-top: auto;
-    max-width: 16%;
+    max-width: 50%;
     border-top-right-radius: 10px;
-    border-top-left-radius: 10px;   
+    border-top-left-radius: 10px; 
+    font-size: 30px;  
 }
 #navbar {
     flex: 0 0 auto;
     background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
-    padding: 20px;
-    text-align: left;
+    text-align: center;
     color: white;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -87,11 +97,13 @@
 #main-section {
     flex: 0 0 auto;
     background-color: #a6a6a6;
-    padding: 120px;
     width: 100%;
     max-width: 100%;
     text-align: center;
     color: white;
+    font-family: lucida sans typwriter;
+    font-size: 30px;
+    padding: 2px;
 }
 #photo-banner {
     flex: 0 0 auto;
@@ -124,5 +136,13 @@
 }
 .body {
     margin: 0px 0px 0px 0px;
+}
+.nav-links {
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding: 0%;
+    font-family: lucida sans typewriter;
+    font-size: 25px;
 }
 }

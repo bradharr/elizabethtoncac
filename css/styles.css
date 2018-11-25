@@ -29,7 +29,7 @@
 }
 #photo-banner {
     flex: 0 0 auto;
-    background-image: url(file:///media/fuse/crostini_7ebe7eb6ef5bb7e40a0b2d63f58d18440b633ea3_termina_penguin/Web%20Dev/GitHub/elizabethtoncac/img/hammock.jpg);
+    background-image: url(../img/hammock.jpg);
     background-size: 1200px 350px;
     background-repeat: no-repeat;
     overflow: hidden;

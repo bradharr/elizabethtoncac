@@ -1,3 +1,61 @@
+@media screen and (max-width: 768px) {
+    #main-box {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #title-tab {
+        flex: 0 0 auto;
+        background-color: #fafaeb;
+        text-align: center;
+        color: #233b43;
+        width: 100%;
+        max-width: 100%;
+        font-size: 22px;
+    }
+    #navbar {
+        flex: 0 0 auto;
+        background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
+        padding: 20px;
+        text-align: left;
+        color: white;
+        width: 100%;
+        max-width: 100%;
+        margin-top: -3%;
+    }
+    #main-section {
+        flex: 0 0 auto;
+        background-color: #a6a6a6;
+        padding: 120px;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        color: white;
+    }
+    #photo-banner {
+        flex: 0 0 auto;
+        background-image: url(../img/hammock.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding: 100px;
+        width: 100%;
+        max-width: 100%;
+        color: white;
+        text-align: center;
+    }
+    #bottom-nav {
+        flex: 0 0 auto;
+        background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
+        padding: 20px;
+        text-align: left;
+        color: white;
+        width: 100%;
+        max-width: 100%;
+        margin-top: -3%;
+    }
+}
+@media screen and (min-width: 768px) {
 #flex-wrapper {
     display: flex;
     flex-direction: row;
@@ -6,7 +64,7 @@
 #title-tab {
     flex: 0 0 auto;
     background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 1px;
     text-align: center;
     color: white;
@@ -14,7 +72,7 @@
     margin-right: auto;
     margin-bottom: auto;
     margin-top: auto;
-    max-width: 22%;
+    max-width: 16%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;   
 }
@@ -27,21 +85,6 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-#photo-banner {
-    flex: 0 0 auto;
-    background-image: url(../img/hammock.jpg);
-    background-size: 1200px 350px;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    padding: 100px;
-    width: 100%;
-    max-width: 100%;
-    color: white;
-    text-shadow: 0 5px 5px black;
-    font-size: 70px;
-    text-align: left;
-    text-indent: -8%;
-}
 #main-section {
     flex: 0 0 auto;
     background-color: #a6a6a6;
@@ -50,6 +93,18 @@
     max-width: 100%;
     text-align: center;
     color: white;
+}
+#photo-banner {
+    flex: 0 0 auto;
+    background-image: url(../img/hammock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 200px;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: center;
 }
 #bottom-nav {
     flex: 0 0 auto;
@@ -65,4 +120,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+.body {
+    margin: 0px 0px 0px 0px;
+}
 }

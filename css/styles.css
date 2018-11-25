@@ -1,8 +1,10 @@
 @media screen and (max-width: 768px) {
     #main-box {
+        width: 100%;
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
+        overflow: hidden;
     }
     #title-tab {
         flex: 0 0 auto;
@@ -17,11 +19,9 @@
         flex: 0 0 auto;
         background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
         padding: 2px;
-        text-align: left;
         color: white;
         width: 100%;
         max-width: 100%;
-        margin-top: -3%;
         text-align: center;
     }
     #main-section {

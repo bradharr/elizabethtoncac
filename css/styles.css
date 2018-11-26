@@ -57,6 +57,54 @@
         color: #e3ea9c;
         text-align: center;
     }
+    #photo-banner-bio {
+        flex: 0 0 auto;
+        background-image: url(../img/bench.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding: 16%;
+        width: 100%;
+        max-width: 100%;
+        color: #e3ea9c;
+        text-align: center;
+    }
+    #photo-banner-about {
+        flex: 0 0 auto;
+        background-image: url(../img/fall.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding: 16%;
+        width: 100%;
+        max-width: 100%;
+        color: #e3ea9c;
+        text-align: center;
+    }
+    #photo-banner-contact {
+        flex: 0 0 auto;
+        background-image: url(../img/lake_fog.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding: 16%;
+        width: 100%;
+        max-width: 100%;
+        color: #e3ea9c;
+        text-align: center;
+    }
+    #photo-banner-gallery {
+        flex: 0 0 auto;
+        background-image: url(../img/pier.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding: 16%;
+        width: 100%;
+        max-width: 100%;
+        color: #e3ea9c;
+        text-align: center;
+    }
     #bottom-nav {
         flex: 0 0 auto;
         background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
@@ -65,6 +113,8 @@
         color: #e3ea9c;
         width: 100%;
         max-width: 100%;
+        font-size: 12px;
+        text-align: center;
     }
     .nav-links {
         flex: 1;
@@ -79,6 +129,12 @@
         border-width: 2px;
         border-color: #1e9488;
         border-radius: 50%;
+    }
+    a:link {
+        color: #e3ea9c;
+    }
+    a:visited {
+        color: #e3ea9c;
     }
 }
 @media screen and (min-width: 768px) {
@@ -148,16 +204,66 @@
     color: white;
     text-align: center;
 }
+#photo-banner-bio {
+    flex: 0 0 auto;
+    background-image: url(../img/bench.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 16%;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+}
+#photo-banner-about {
+    flex: 0 0 auto;
+    background-image: url(../img/fall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 16%;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+}
+#photo-banner-contact {
+    flex: 0 0 auto;
+    background-image: url(../img/lake_fog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 16%;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+}
+#photo-banner-gallery {
+    flex: 0 0 auto;
+    background-image: url(../img/pier.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 16%;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+}
 #bottom-nav {
     flex: 0 0 auto;
     background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     color: white;
     width: 100%;
     max-width: 100%;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    font-size: 12px;
+    text-align: center;
 }
 #main-box {
     max-width: 95%;
@@ -187,5 +293,11 @@
     border-width: 2px;
     border-color: #1e9488;
     border-radius: 50%;
+}
+a:link {
+    color: #e3ea9c;
+}
+a:visited {
+    color: #e3ea9c;
 }
 }

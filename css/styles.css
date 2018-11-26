@@ -8,18 +8,18 @@
     }
     #title-tab {
         flex: 1;
-        background-color: #fafaeb;
+        background-color: #e3ea9c;
         text-align: center;
-        color: #457587;
+        color: #1e9488;
         width: 100%;
         max-width: 100%;
         font-size: 30px;
     }
     #title-tab2 {
         flex: 1;
-        background-color: #fafaeb;
+        background-color: #e3ea9c;
         text-align: center;
-        color: #457587;
+        color: #1e9488;
         width: 100%;
         max-width: 100%;
         font-size: 30px;
@@ -27,9 +27,9 @@
     }
     #navbar {
         flex: 0 0 auto;
-        background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
+        background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
         padding: 2px;
-        color: #fafaeb;
+        color: #e3ea9c;
         width: 100%;
         max-width: 100%;
         text-align: center;
@@ -47,28 +47,28 @@
     }
     #photo-banner {
         flex: 0 0 auto;
-        background-image: url(../img/hammock.jpg);
+        background-image: url(../img/hammock1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
         padding: 16%;
         width: 100%;
         max-width: 100%;
-        color: white;
+        color: #e3ea9c;
         text-align: center;
     }
     #bottom-nav {
         flex: 0 0 auto;
-        background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
+        background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
         padding: 20px;
         text-align: left;
-        color: white;
+        color: #e3ea9c;
         width: 100%;
         max-width: 100%;
     }
     .nav-links {
         flex: 1;
-        color: white;
+        color: #e3ea9c;
         text-align: center;
         padding: 0%;
         font-family: lucida sans typewriter;
@@ -77,7 +77,7 @@
     .img-format {
         border-style: solid;
         border-width: 2px;
-        border-color: #457587;
+        border-color: #1e9488;
         border-radius: 50%;
     }
 }
@@ -89,11 +89,11 @@
 }
 #title-tab {
     flex: 1;
-    background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
+    background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    color: white;
+    color: #e3ea9c;
     margin-left: 1%;
     margin-right: auto;
     margin-bottom: auto;
@@ -105,11 +105,11 @@
 }
 #title-tab2 {
     flex: 1;
-    background-color: #fafaeb;
+    background-color: #e3ea9c;
     padding-top: 5px;
     padding-bottom: 1px;
     text-align: center;
-    color: #457587;
+    color: #1e9488;
     margin-right: auto;
     margin-bottom: 1px;
     margin-top: auto;
@@ -119,9 +119,9 @@
 }
 #navbar {
     flex: 0 0 auto;
-    background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
+    background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
     text-align: center;
-    color: white;
+    color: #e3ea9c;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -138,7 +138,7 @@
 }
 #photo-banner {
     flex: 0 0 auto;
-    background-image: url(../img/hammock.jpg);
+    background-image: url(../img/hammock1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -150,7 +150,7 @@
 }
 #bottom-nav {
     flex: 0 0 auto;
-    background-image: linear-gradient(to bottom, #5793a8, #457587, #345865, #233b43);
+    background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
     padding: 20px;
     text-align: left;
     color: white;
@@ -170,16 +170,22 @@
 }
 .nav-links {
     flex: 1;
-    color: white;
+    color: #e3ea9c;
     text-align: center;
     padding: 0%;
     font-family: lucida sans typewriter;
     font-size: 25px;
 }
+#main-name {
+    flex: 2;
+}
+.main-contact {
+    flex: 1;
+}
 .img-format {
     border-style: solid;
     border-width: 2px;
-    border-color: #457587;
+    border-color: #1e9488;
     border-radius: 50%;
 }
 }

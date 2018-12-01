@@ -8,40 +8,40 @@
     }
     #title-tab {
         flex: 1;
-        background-color: #e3ea9c;
+        background-color: #e2762d;
         text-align: center;
-        color: #1e9488;
+        color: white;
         width: 100%;
         max-width: 100%;
         font-size: 30px;
     }
     #title-tab2 {
         flex: 1;
-        background-color: #e3ea9c;
+        background-color: #e2762d;
         text-align: center;
-        color: #1e9488;
+        color: white;
         width: 100%;
         max-width: 100%;
-        font-size: 30px;
-        font-family: cookie;
+        font-size: 20px;
+        font-family: Special Elite;
     }
     #navbar {
         flex: 0 0 auto;
-        background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
+        background-image: linear-gradient(to bottom, #A8EADE, #84e1d0, #5bd7c0, #32cdb1, #28a48d);
         padding: 2px;
-        color: #e3ea9c;
+        color: white;
         width: 100%;
         max-width: 100%;
         text-align: center;
     }
     #main-section {
         flex: 0 0 auto;
-        background-color: #a6a6a6;
+        background-color: #cccccc;
         width: 100%;
         max-width: 100%;
         text-align: center;
-        color: white;
-        font-family: lucida sans typwriter;
+        color: #e2762d;
+        font-family: Special Elite;
         font-size: 20px;
         padding: 2px;
     }
@@ -54,7 +54,7 @@
         padding: 16%;
         width: 100%;
         max-width: 100%;
-        color: #e3ea9c;
+        color: black;
         text-align: center;
     }
     #photo-banner-bio {
@@ -66,7 +66,7 @@
         padding: 16%;
         width: 100%;
         max-width: 100%;
-        color: #e3ea9c;
+        color: black;
         text-align: center;
     }
     #photo-banner-about {
@@ -78,7 +78,7 @@
         padding: 16%;
         width: 100%;
         max-width: 100%;
-        color: #e3ea9c;
+        color: black;
         text-align: center;
     }
     #photo-banner-contact {
@@ -90,7 +90,7 @@
         padding: 16%;
         width: 100%;
         max-width: 100%;
-        color: #e3ea9c;
+        color: black;
         text-align: center;
     }
     #photo-banner-gallery {
@@ -102,39 +102,40 @@
         padding: 16%;
         width: 100%;
         max-width: 100%;
-        color: #e3ea9c;
+        color: black;
         text-align: center;
     }
     #bottom-nav {
         flex: 0 0 auto;
-        background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
+        background-image: linear-gradient(to bottom, #A8EADE, #84e1d0, #5bd7c0, #32cdb1, #28a48d);
         padding: 20px;
         text-align: left;
-        color: #e3ea9c;
+        color: black;
         width: 100%;
         max-width: 100%;
         font-size: 12px;
         text-align: center;
+        font-family: Special Elite;
     }
     .nav-links {
         flex: 1;
-        color: #e3ea9c;
+        color: white;
         text-align: center;
         padding: 0%;
-        font-family: lucida sans typewriter;
+        font-family: Special Elite;
         font-size: 20px;
     }
     .img-format {
         border-style: solid;
         border-width: 2px;
-        border-color: #1e9488;
+        border-color: #A8EADE;
         border-radius: 50%;
     }
     a:link {
-        color: #e3ea9c;
+        color: black;
     }
     a:visited {
-        color: #e3ea9c;
+        color: black;
     }
 }
 @media screen and (min-width: 768px) {
@@ -145,11 +146,11 @@
 }
 #title-tab {
     flex: 1;
-    background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
+    background-image: linear-gradient(to bottom, #A8EADE, #84e1d0, #5bd7c0, #32cdb1, #28a48d);
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    color: #e3ea9c;
+    color: white;
     margin-left: 1%;
     margin-right: auto;
     margin-bottom: auto;
@@ -161,34 +162,34 @@
 }
 #title-tab2 {
     flex: 1;
-    background-color: #e3ea9c;
+    background-color: #e2762d;
     padding-top: 5px;
     padding-bottom: 1px;
     text-align: center;
-    color: #1e9488;
+    color: white;
     margin-right: auto;
     margin-bottom: 1px;
     margin-top: auto;
     max-width: 39%;
-    font-size: 30px;
-    font-family: cookie;
+    font-size: 20px;
+    font-family: Special Elite;
 }
 #navbar {
     flex: 0 0 auto;
-    background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
+    background-image: linear-gradient(to bottom, #A8EADE, #84e1d0, #5bd7c0, #32cdb1, #28a48d);
     text-align: center;
-    color: #e3ea9c;
+    color: white;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 #main-section {
     flex: 0 0 auto;
-    background-color: #a6a6a6;
+    background-color: #cccccc;
     width: 100%;
     max-width: 100%;
     text-align: center;
-    color: white;
-    font-family: lucida sans typwriter;
+    color: #e2762d;
+    font-family: Special Elite;
     font-size: 20px;
     padding: 2px;
 }
@@ -254,16 +255,17 @@
 }
 #bottom-nav {
     flex: 0 0 auto;
-    background-image: linear-gradient(to bottom, #27bcad, #1e9488, #166a61, #0d3f3a);
+    background-image: linear-gradient(to bottom, #A8EADE, #84e1d0, #5bd7c0, #32cdb1, #28a48d);
     padding: 10px;
     text-align: left;
-    color: #e3ea9c;
+    color: black;
     width: 100%;
     max-width: 100%;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     font-size: 12px;
     text-align: center;
+    font-family: Special Elite;
 }
 #main-box {
     max-width: 95%;
@@ -276,10 +278,10 @@
 }
 .nav-links {
     flex: 1;
-    color: #e3ea9c;
+    color: white;
     text-align: center;
     padding: 0%;
-    font-family: lucida sans typewriter;
+    font-family: Special Elite;
     font-size: 25px;
 }
 #main-name {
@@ -291,13 +293,14 @@
 .img-format {
     border-style: solid;
     border-width: 2px;
-    border-color: #1e9488;
+    border-color: #A8EADE;
     border-radius: 50%;
 }
 a:link {
-    color: #e3ea9c;
+    color: white;
 }
 a:visited {
-    color: #e3ea9c;
+    color: white;
 }
+font-family: 'Special Elite', cursive;
 }

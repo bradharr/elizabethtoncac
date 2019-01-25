@@ -133,6 +133,19 @@
         border-color: #A8EADE;
         border-radius: 50%;
     }
+    .main-contact {
+        flex: 1;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .main-contact2 {
+        flex: 1;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 100%;
+    }
     a:link {
         color: white;
     }
@@ -145,6 +158,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 #title-tab {
     flex: 1;
@@ -296,6 +311,13 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+.main-contact2 {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 30%;
 }
 .img-format {
     border-style: solid;

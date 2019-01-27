@@ -126,6 +126,8 @@
         padding: 0%;
         font-family: Special Elite;
         font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .img-format {
         border-style: solid;
@@ -330,6 +332,8 @@
     padding: 0%;
     font-family: Special Elite;
     font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #main-name {
     flex: 2;

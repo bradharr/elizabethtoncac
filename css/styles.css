@@ -146,6 +146,20 @@
         text-align: center;
         max-width: 100%;
     }
+    .about-specialties {
+        flex: 1;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        max-width: 80%;
+    }
+    .about-therapy {
+        flex: 1;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        max-width: 80%;
+    }
     a:link {
         color: white;
     }
@@ -305,6 +319,10 @@
 }
 #main-name {
     flex: 2;
+    text-align: left;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-contact {
     flex: 1;
@@ -318,6 +336,18 @@
     margin-right: auto;
     text-align: center;
     max-width: 30%;
+}
+.about-specialties {
+    flex: 1;
+    margin-left: 120px;
+    margin-right: auto;
+    text-align: left;
+}
+.about-therapy {
+    flex: 1;
+    margin-left: auto;
+    margin-right: 120px;
+    text-align: left;
 }
 .img-format {
     border-style: solid;

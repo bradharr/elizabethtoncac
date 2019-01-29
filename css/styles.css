@@ -337,7 +337,7 @@
 }
 #main-name {
     flex: 2;
-    text-align: left;
+    text-align: center;
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -346,7 +346,7 @@
     flex: 1;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
 }
 .main-contact2 {
     flex: 1;
@@ -396,3 +396,13 @@ a:visited {
 }
 font-family: 'Special Elite', cursive;
 }
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    max-width: 80%;
+  } 

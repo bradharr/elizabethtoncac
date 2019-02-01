@@ -49,7 +49,7 @@
     }
     #photo-banner {
         flex: 0 0 auto;
-        background-image: url(../img/hammock1.jpg);
+        background-image: url("../img/hammock.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -251,7 +251,7 @@
 }
 #photo-banner {
     flex: 0 0 auto;
-    background-image: url(../img/hammock1.jpg);
+    background-image: url(../img/hammock.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;

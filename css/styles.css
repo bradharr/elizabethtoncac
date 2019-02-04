@@ -107,18 +107,6 @@
         color: black;
         text-align: center;
     }
-    #photo-banner-gallery {
-        flex: 0 0 auto;
-        background-image: url(../img/pier.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        padding: 16%;
-        width: 100%;
-        max-width: 100%;
-        color: black;
-        text-align: center;
-    }
     #bottom-nav {
         flex: 0 0 auto;
         background-image: linear-gradient(to bottom, #5bd7c0, #32cdb1, #28a48d, #1e7b6a, #145247);
@@ -368,18 +356,6 @@
     color: white;
     text-align: center;
 }
-#photo-banner-gallery {
-    flex: 0 0 auto;
-    background-image: url(../img/pier.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    padding: 16%;
-    width: 100%;
-    max-width: 100%;
-    color: white;
-    text-align: center;
-}
 #bottom-nav {
     flex: 0 0 auto;
     background-image: linear-gradient(to bottom, #5bd7c0, #32cdb1, #28a48d, #1e7b6a, #145247);
@@ -546,7 +522,7 @@ hr {
     max-width: 100%;
 }
 div.gallery {
-    flex: 4;
+    flex: 1;
     margin: 4px;
     border: 1px solid #ccc;
     max-width: 100%;

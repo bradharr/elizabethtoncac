@@ -49,7 +49,7 @@
     }
     #photo-banner {
         flex: 0 0 auto;
-        background-image: url("../img/hammock.jpg");
+        background-image: url("../img/brushes.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -61,7 +61,19 @@
     }
     #photo-banner-bio {
         flex: 0 0 auto;
-        background-image: url(../img/bench.jpg);
+        background-image: url(../img/colors.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding: 16%;
+        width: 100%;
+        max-width: 100%;
+        color: black;
+        text-align: center;
+    }
+    #photo-banner-info {
+        flex: 0 0 auto;
+        background-image: url(../img/tree.PNG);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -73,7 +85,7 @@
     }
     #photo-banner-about {
         flex: 0 0 auto;
-        background-image: url(../img/fall.jpg);
+        background-image: url(../img/music.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -85,7 +97,7 @@
     }
     #photo-banner-contact {
         flex: 0 0 auto;
-        background-image: url(../img/lake_fog.jpg);
+        background-image: url(../img/record.PNG);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -189,6 +201,33 @@
     a:visited {
         color: white;
     }
+    .video-container {
+        flex: 1;
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 10px;
+        height: 0;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        width: 100%;
+        
+    }
+    .video-container iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        padding-bottom: 5%;
+    }
+    .iframe-container-4x3 {
+        padding-top: 75%;
+      }
 }
 @media screen and (min-width: 768px) {
 #flex-wrapper {
@@ -251,7 +290,19 @@
 }
 #photo-banner {
     flex: 0 0 auto;
-    background-image: url(../img/hammock.jpg);
+    background-image: url(../img/brushes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 16%;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+#photo-banner-bio {
+    flex: 0 0 auto;
+    background-image: url(../img/colors.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -261,9 +312,9 @@
     color: white;
     text-align: center;
 }
-#photo-banner-bio {
+#photo-banner-info {
     flex: 0 0 auto;
-    background-image: url(../img/bench.jpg);
+    background-image: url(../img/tree.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -275,7 +326,7 @@
 }
 #photo-banner-about {
     flex: 0 0 auto;
-    background-image: url(../img/fall.jpg);
+    background-image: url(../img/music.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -287,7 +338,7 @@
 }
 #photo-banner-contact {
     flex: 0 0 auto;
-    background-image: url(../img/lake_fog.jpg);
+    background-image: url(../img/record.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -451,6 +502,9 @@ hr {
     max-width: 100%;
     padding-bottom: 5%;
 }
+.iframe-container-4x3 {
+    padding-top: 75%;
+  }
 div.gallery {
     flex: 4;
     margin: 4px;

@@ -213,47 +213,6 @@
         max-width: 100%;
         padding-bottom: 5%;
     }
-    .responsive-wrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 80%;
-        height: auto;
-      
-        margin: 0;
-        padding: 0;
-        border: none;
-      }
-      #Iframe-Master-CC-and-Rs {
-        max-width: 512px;
-        max-height: 100%; 
-        overflow: hidden;
-      }
-      .responsive-wrapper {
-        position: relative;
-        height: 0; 
-      }
-      .responsive-wrapper-wxh-572x612 {
-        padding-bottom: 107%;
-      }
-      .set-border {
-        border: 5px inset #4f4f4f;
-      }
-      .set-box-shadow { 
-        -webkit-box-shadow: 4px 4px 14px #4f4f4f;
-        -moz-box-shadow: 4px 4px 14px #4f4f4f;
-        box-shadow: 4px 4px 14px #4f4f4f;
-      }
-      .set-padding {
-        padding: 40px;
-      }
-      .set-margin {
-        margin: 30px;
-      }
-      .center-block-horiz {
-        margin-left: auto !important;
-        margin-right: auto !important;
-      }
 }
 @media screen and (min-width: 768px) {
 #flex-wrapper {
@@ -474,7 +433,6 @@ a:visited {
     color: white;
 }
 font-family: 'Special Elite', cursive;
-}
 hr { 
     display: block;
     margin-top: 0.5em;
@@ -534,44 +492,4 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
-  .responsive-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
-  #Iframe-Master-CC-and-Rs {
-    max-width: 912px;
-    max-height: 100%; 
-    overflow: hidden;
-  }
-  .responsive-wrapper {
-    position: relative;
-    height: 0; 
-  }
-  .responsive-wrapper-wxh-572x612 {
-    padding-bottom: 107%;
-  }
-  .set-border {
-    border: 5px inset #4f4f4f;
-  }
-  .set-box-shadow { 
-    -webkit-box-shadow: 4px 4px 14px #4f4f4f;
-    -moz-box-shadow: 4px 4px 14px #4f4f4f;
-    box-shadow: 4px 4px 14px #4f4f4f;
-  }
-  .set-padding {
-    padding: 40px;
-  }
-  .set-margin {
-    margin: 30px;
-  }
-  .center-block-horiz {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
+}
